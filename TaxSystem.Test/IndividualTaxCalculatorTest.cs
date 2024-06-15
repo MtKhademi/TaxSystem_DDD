@@ -21,5 +21,21 @@ namespace TaxSystem.Test
                 .WithMessage(exceptionMessage);
 
         }
+
+
+        [Fact]
+        public void When_HasDisability_Expect_get_zero_for_taxPercentage()
+        {
+            // arrange
+            TaxPayer payer = new TaxPayer { TaxCitizen = true, HasDisability = true };
+            IndividualTaxCalculator calculaot = new IndividualTaxCalculator();
+
+            // act
+            var result = calculaot.CalculatorTaxPercentage(payer);
+
+            // assert
+            result.Should().Be(0);
+
+        }
     }
 }
