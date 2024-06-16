@@ -2,11 +2,11 @@
 using TaxSystem.Infra;
 using TaxSystem.Interfaces;
 
-namespace TaxSystem.services;
+namespace TaxSystem.Services;
 
 public class TaxCalculatorService
 {
-    public int CalclutorTaxPercentage(TaxPayer taxPayer)
+    public TaxPayer CalclutorTaxPercentage(TaxPayer taxPayer)
     {
 
         var ruleType = typeof(ITaxRule);

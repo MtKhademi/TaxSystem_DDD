@@ -5,10 +5,10 @@ namespace TaxSystem.Infra.TaxRules;
 
 public class RetierdRule : ITaxRule
 {
-    public int CalcualteTaxPercentage(TaxPayer taxPayer, int currentPercentage)
+    public TaxPayer CalcualteTaxPercentage(TaxPayer taxPayer, double currentPercentage)
     {
-        if (taxPayer.IsRetierd)
-            return 0;
-        return 1;
+        if (taxPayer.IsRetierd) taxPayer.TaxedAmount = 0;
+        else taxPayer.TaxedAmount = 1;
+        return taxPayer;
     }
 }

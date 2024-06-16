@@ -11,15 +11,14 @@ public class TaxRuleEngine
         _rules.AddRange(rules);
     }
 
-    public int CalculateTaxPercentage(TaxPayer taxPayer)
+    public TaxPayer CalculateTaxPercentage(TaxPayer taxPayer)
     {
-        int taxPercentage = 0;
         foreach (var rule in _rules)
         {
-            taxPercentage = Math.Max(taxPercentage, rule.CalcualteTaxPercentage(taxPayer, taxPercentage));
+            taxPayer.TaxedAmount += rule.CalcualteTaxPercentage(taxPayer, taxPayer.TaxedAmount).TaxedAmount;
         }
 
-        return taxPercentage;
+        return taxPayer;
     }
 
 }
