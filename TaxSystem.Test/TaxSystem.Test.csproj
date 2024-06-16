@@ -19,6 +19,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\AssetsSystem\AssetsSystem.csproj" />
+    <ProjectReference Include="..\CommandPattern\CommandPattern.csproj" />
     <ProjectReference Include="..\TaxSystem\TaxSystem.csproj" />
   </ItemGroup>
 

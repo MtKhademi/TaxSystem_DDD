@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaxSystem.Test", "TaxSystem
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AssetsSystem", "AssetsSystem\AssetsSystem.csproj", "{05E0D83C-3830-46CC-A5E9-E8DA62476565}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommandPattern", "CommandPattern\CommandPattern.csproj", "{BA820371-6FD1-4773-9479-831B4E80D082}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{05E0D83C-3830-46CC-A5E9-E8DA62476565}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{05E0D83C-3830-46CC-A5E9-E8DA62476565}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{05E0D83C-3830-46CC-A5E9-E8DA62476565}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA820371-6FD1-4773-9479-831B4E80D082}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA820371-6FD1-4773-9479-831B4E80D082}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA820371-6FD1-4773-9479-831B4E80D082}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA820371-6FD1-4773-9479-831B4E80D082}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
