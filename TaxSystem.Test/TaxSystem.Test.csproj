@@ -18,6 +18,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\AssetsSystem\AssetsSystem.csproj" />
     <ProjectReference Include="..\TaxSystem\TaxSystem.csproj" />
   </ItemGroup>
 

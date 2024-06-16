@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34902.65
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaxSystem", "TaxSystem\TaxSystem.csproj", "{D662D59D-0D14-4BA4-B623-069F33DCF01F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaxSystem", "TaxSystem\TaxSystem.csproj", "{D662D59D-0D14-4BA4-B623-069F33DCF01F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaxSystem.Test", "TaxSystem.Test\TaxSystem.Test.csproj", "{132C1B6D-2042-498D-AFB9-81C7C9BB9DEA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaxSystem.Test", "TaxSystem.Test\TaxSystem.Test.csproj", "{132C1B6D-2042-498D-AFB9-81C7C9BB9DEA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AssetsSystem", "AssetsSystem\AssetsSystem.csproj", "{05E0D83C-3830-46CC-A5E9-E8DA62476565}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{132C1B6D-2042-498D-AFB9-81C7C9BB9DEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{132C1B6D-2042-498D-AFB9-81C7C9BB9DEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{132C1B6D-2042-498D-AFB9-81C7C9BB9DEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05E0D83C-3830-46CC-A5E9-E8DA62476565}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05E0D83C-3830-46CC-A5E9-E8DA62476565}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05E0D83C-3830-46CC-A5E9-E8DA62476565}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05E0D83C-3830-46CC-A5E9-E8DA62476565}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
